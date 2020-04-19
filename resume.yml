@@ -2,10 +2,10 @@
 basics:
   name: Jules Amosah
   label: Software Engineer
-  picture: "https://s.gravatar.com/avatar/fa96b2e83f11e031aeb2fbfacea0215d?s=500"
+  picture: "s.gravatar.com/avatar/fa96b2e83f11e031aeb2fbfacea0215d?s=500"
   email: teomik129@gmail.com
   phone: "(423) 903-0127"
-  website: https://julesamosah.me
+  website: julesamosah.me
   summary: |
     I am a software engineer from Winston Salem.
     My main areas of focus are JavaScript, React, and .NET
@@ -18,14 +18,14 @@ basics:
   profiles:
     - network: LinkedIn
       username: Jules Amosah
-      url: https://linkedin.com/in/jules-amosah-0b3b32107
+      url: linkedin.com/in/jules-amosah-0b3b32107
     - network: GitHub
       username: Teomik192
-      url: https://github.com/Teomik129
+      url: github.com/Teomik129
 work:
   - company: Inmar
     position: Intern
-    website: https://inmar.com
+    website: inmar.com
     startDate: 2017-02-07
     endDate: 2020-07-06
     summary: ITS, Software & QA Engineering
@@ -36,7 +36,7 @@ work:
       - Rewrite and create a CI/CD pipeline for automated End-to-end testing
   - company: Wake Forest University
     position: Resident Adviser
-    website: https://rlh.wfu.edu
+    website: rlh.wfu.edu
     startDate: 2017-08-13
     endDate: 2020-05-18
     summary: Paraprofessional student-facing staff for the Office of Residence Life and Housing
@@ -48,7 +48,7 @@ work:
 volunteer:
   - organization: Office of the President, Wake Forest University
     position: President's Aide
-    website: https://president.wfu.edu/presidents-aides
+    website: president.wfu.edu/presidents-aides
     startDate: 2018-08-12
     endDate: 2020-05-18
     summary: Student ambassador for the university's president
