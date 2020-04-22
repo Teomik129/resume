@@ -20,7 +20,7 @@ basics:
       username: Jules Amosah
       url: linkedin.com/in/jules-amosah-0b3b32107
     - network: GitHub
-      username: Teomik192
+      username: Teomik129
       url: github.com/Teomik129
 work:
   - company: Inmar
@@ -46,7 +46,7 @@ work:
       - Monitor and patrol the community in an on-call capacity from 5:00pm—8:30am on a regular rotating schedule
       - Enforce university policy for campus life and manage instances of crisis
 volunteer:
-  - organization: Office of the President, Wake Forest University
+  - organization: Office of the President, WFU
     position: President's Aide
     website: president.wfu.edu/presidents-aides
     startDate: 2018-08-12
@@ -58,10 +58,10 @@ volunteer:
 education:
   - institution: Wake Forest University
     area: Computer Science
-    studyType: Bachelor of Science
+    studyType: B.S.
     startDate: 2016-08-30
     endDate: 2020-05-18
-    gpa: 3.5
+    gpa: 3.37
 skills:
   - name: Web Development
     level: Proficient

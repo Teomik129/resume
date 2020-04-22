@@ -1,0 +1,76 @@
+{
+  "name": "@amosah/resume",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Teomik129/resume#readme",
+  "bugs": {
+    "url": "https://github.com/Teomik129/resume/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teomik129/resume"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jules Amosah",
+    "email": "teomik129@gmail.com"
+  },
+  "bin": {
+    "make-pdf": "src/scripts/make-pdf.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "prepare": "npm run build:bin",
+    "build:bin": "tsc --jsx react --esModuleInterop --target es5 src/scripts/make-pdf",
+    "build:web": "parcel build public/index.html",
+    "fix:imports": "import-sort --write {src,scripts}/**/*.{ts,tsx}",
+    "lint": "run-s lint:*",
+    "lint:es": "eslint --ext ts,tsx src",
+    "lint:types": "tsc --noEmit",
+    "run:pdf": "ts-node src/scripts/make-pdf",
+    "start": "parcel public/index.html --open"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.8",
+    "@rooks/use-window-size": "^3.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sanitize.css": "^11.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/yamljs": "^0.2.30",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "import-sort-cli": "^6.0.0",
+    "import-sort-style-react": "^5.1.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
+}
